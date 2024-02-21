@@ -1,0 +1,795 @@
+/* Сброс стилей для body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Стили для кнопки переключения темы */
+.theme-toggle {
+    position: fixed;
+    top: 20px; /* Или любая другая координата в соответствии с вашим дизайном */
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000; /* Убедитесь, что кнопка будет видна над другими элементами */
+}
+
+/* Стили для фиксированной позиции элемента входа/регистрации */
+.auth-icon {
+    position: fixed;
+    top: 5px; /* Регулируйте значение, чтобы поднять или опустить иконку */
+    right: 95px; /* Регулируйте значение, чтобы сдвинуть иконку ближе к центру или к краю */
+    z-index: 100; /* Убедитесь, что z-index выше, чем у других элементов */
+}
+
+.auth-icon img {
+    width: 50px; /* или нужный вам размер */
+    height: auto;
+    top: 20px; /* Расстояние от верха первого блока */
+    left: 20px; /* Расстояние от левого края первого блока */
+    z-index: 10; /* Убедитесь, что элемент виден поверх других */
+}
+
+.image-overlay {
+    position: relative; /* Делает блок контекстом позиционирования для абсолютно позиционированных элементов */
+}
+
+.auth-icon, .menu-btn {
+    position: absolute; /* Позиционирует элементы абсолютно внутри первого блока */
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Убедитесь, что z-index выше, чем у других элементов */
+    cursor: pointer;
+    display: none; /* Изначально скрыта */
+}
+
+.scroll-to-top img {
+    width: 50px; /* Или любой другой размер, который вам нужен */
+    height: auto;
+}
+
+/* Стили для первой секции */
+.main-section {
+    text-align: center;
+    position: relative;
+    height: 100vh; /* Определите высоту, которую вы хотите для первого блока */
+    overflow: hidden; /* Это предотвратит видимость прокрутки вниз при прокрутке страницы */
+}
+
+/* Стили для кнопки Вход/Регистрация */
+#authButton {
+    position: fixed;
+    top: 27px;
+    right: 55px;
+    z-index: 1000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+#authButton img {
+    width: 25px;
+    height: auto;
+}
+
+/* Стили для блока с фотографией */
+.photo {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Стили для затемнения фотографии при наведении */
+.photo:hover img {
+    opacity: 0.7;
+}
+
+/* Стили для затемнения фона вокруг текста */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* полупрозрачный черный цвет фона */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.photo:hover .overlay {
+    opacity: 1; /* Полная видимость при наведении */
+}
+
+#authButton:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Стили для оверлея изображения */
+.image-overlay {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo {
+    margin: 0;
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img {
+    transition: transform 0.5s ease, src 0.5s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
+
+.left-tabs {
+    margin-right: 10px;
+}
+
+.right-tabs {
+    margin-left: 10px;
+}
+
+.tabs, .left-tabs, .right-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.left-tabs {
+    margin-left: 20px;
+}
+
+.right-tabs {
+    margin-right: 20px;
+}
+
+/* Меню */
+
+/* Кнопка меню-бургера */
+.menu-btn {
+    position: fix;
+    top: 25px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-btn__burger {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    transition: all .3s linear;
+}
+
+/* Панель меню */
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Анимация крестика */
+.menu-btn.open .menu-btn__burger {
+    transform: rotate(45deg);
+}
+
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: all .3s linear;
+}
+
+/* Стиль для активного (открытого) состояния меню, если крестик реализован внутри .menu-btn */
+.menu-btn.open .menu-btn__burger,
+.menu-btn.open .menu-btn__burger::before,
+.menu-btn.open .menu-btn__burger::after {
+    /* Стили для создания крестика */
+    z-index: 1002; /* Это убедится, что линии крестика не будут перекрыты другими элементами */
+}
+
+.menu-btn__burger,
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    height: 2px; /* Уменьшенная высота полос */
+}
+
+.menu-btn__burger::before {
+    top: -10px;
+}
+
+.menu-btn__burger {
+    margin: 1px 1px; /* Меньше маржи для уменьшения пространства между полосами */
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-btn__burger::after {
+    bottom: -10px;
+}
+
+.menu-nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu-nav a:hover {
+    color: #e37c71;
+}
+
+/* Оверлей */
+.overlay {
+    display: none;
+    position: fixed; /* или absolute, в зависимости от нужного эффекта */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Пример полупрозрачного фона */
+    z-index: 1000; /* Убедитесь, что оверлей перекрывает другие элементы, но находится под кнопкой меню */
+}
+
+.tabs a, .tabs img {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+.centered-text h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.centered-text p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.centered-text .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #e37c71;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.centered-text .cta-button:hover {
+    background-color: #c0392b;
+} 
+
+/* Стили для второй секции */
+.second-section {
+    height: 100vh;
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: margin 0.3s ease;
+}
+
+.block:nth-child(1) {
+    margin: -115px -105px 75px 0;
+}
+
+.block:nth-child(2) {
+    margin: 10px  10px 0 10px;
+}
+
+.block:nth-child(3) {
+    margin: 215px 10px 0 -105px;
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.block h1 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    color: #7a7777;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Убедитесь, что z-index выше, чем у других элементов */
+}
+
+.scroll-indicator img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-indicator img:hover {
+    opacity: 0.7;
+}
+
+.tabs a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, p {
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}   
+
+/* Стили для третьей секции */
+.third-section {
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 55px;
+}
+
+.video-block {
+    max-width: 555px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block-above-video {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.block-above-video h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Добавленные стили для четвертой секции */
+.fourth-section {
+    background-color: #7a7777;
+    text-align: center;
+    padding: 15px;
+}
+
+.photo-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.photo {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+} */
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+
+.photo:hover img {
+    opacity: 1.7;
+}
+
+.photo:hover .text-overlay {
+    opacity: 1;
+}
+
+.photo.enlarge {
+    width: 450px;
+    height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo.enlarge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 201px rgba(255, 105, 105, 0.5);
+}
+
+.photo-block:hover .photo:not(:hover) {
+    filter: brightness(33%);
+}
+
+
+/* Подвал */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.footer-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Стили для социальных иконок */
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Стили для tooltip */
+.social-icon::before {
+    content: attr(data-tooltip);
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icon:hover::before {
+    display: block;
+}
+
+/* Стили для подписки */
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #ff6659;
+}
+
+/* Стили для модального окна */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Добавьте анимацию, если хотите */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal input[type=text],
+.modal input[type=password] {
+    margin: 8px 0;
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5C9ACF;
+    color: white;
+    cursor: pointer;
+}
+
+.modal button:hover {
+    opacity: 0.8;
+}

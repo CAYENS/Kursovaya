@@ -1,0 +1,2732 @@
+index.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Слово Книги</title>
+</head>
+<body>
+    <section class="main-section">
+        <div class="image-overlay">
+            <div class="dark-overlay"></div>
+            <div class="overlay-content">
+                <div class="tabs left-tabs">
+                    <a href="#">О нас</a>
+                    <a href="#">Каталог</a>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="image/logo.png" alt="Логотип" data-hover="image/logo2.png">
+                </a>
+                <div class="tabs right-tabs">
+                    <a href="#">Контакты</a>
+                    <a href="#">Вход/Регистрация</a>
+                </div>
+            </div>
+            <div class="centered-text">
+                <h1>Добро пожаловать в наш магазин электронных книг!</h1>
+                <p>У нас вы найдете широкий выбор современных и старинных изданий.</p>
+                <a href="#" class="cta-button">Подробнее</a>
+            </div>
+            <div class="image-container">
+                <img src="image/1blockf.jpg" alt="Пример фото">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <img src="image/arrow-down.gif" alt="Scroll Down">
+        </div>
+    </section>
+
+    <section class="second-section">
+        <div class="block block-hidden">
+            <img src="image/1corg.webp" alt="Книга 1">
+            <h1>✨Четвероногие литературные приключения🐾</h1>
+            <p>В мире интеллекта и вдохновения даже самые милые четвероногие друзья не остаются в стороне от увлекательного чтения! 📚🐾 Наш маленький корги занят пристальным чтением книги, погруженный в мир слов и историй. 🐶✨ Погрузитесь в удивительные приключения вместе с нашими книгами - идеальными спутниками для всех любителей литературы, даже самых пушистых!</p>
+        </div>
+        <div class="block block-hidden">
+            <img src="image/3capib.webp" alt="Книга 2">
+            <h1>💖Любовь, книги и капибары! 📖</h1>
+            <p>Наши влюбленные капибары погружены в захватывающее чтение, смотря друг на друга с нежностью. Почувствуйте магию момента вместе с нашими электронными книгами - идеальным компаньоном для романтических вечеров и уютных моментов вдвоем!</p>
+        </div>
+        <div class="block block-hidden">
+            <img src="image/2corg.webp" alt="Книга 3">
+            <h1>🐾Путешествие в мир слов начинается с улыбчивого корги! 📚</h1>
+            <p>Наш маленький литературный друг приглашает вас присоединиться к нему в увлекательном чтении. Сидя на открытой книге с взглядом, полным приглашения, он предлагает вам погрузиться в удивительные истории вместе. Давайте создадим вместе моменты волшебства и знаний! 🐶✨ #ЧитайСоМной</p>
+        </div>
+    </section>
+
+    <section class="third-section">
+        <h1>Для чего вообще нужно читать книги?</h1>
+        <div class="block-above-video">
+        </div>
+        <div class="video-block" id="videoBlock">
+            <iframe width="560" height="315" src="image/2027269716-8964022.mp4" bord="1" allowfullscreen></iframe>
+            <div class="video-description">
+                <h1>🎥 Интересное видео о мире книг ✨</h1>
+                <p>Погрузитесь в захватывающий мир литературы с нашим интересным видео! Отзывы, рецензии и увлекательные факты о великих произведениях и новинках литературы.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth-section">
+        <div class="photo-block">
+            <div class="photo enlarge" id="photo1">
+                <a href="your_destination_page3.html">
+                <img src="image/1carus.webp" alt="Фото 1">
+                <div class="overlay"></div>
+                <div class="text-overlay">
+                    <h1>📓КАТАЛОГ📓</h1>
+                    <p></p>
+                </div>
+                </a>
+            </div>
+            <div class="photo enlarge" id="photo2">
+                <a href="your_destination_page3.html">
+                <img src="image/5corg.webp" alt="Фото 2">
+                <div class="overlay"></div>
+                <div class="text-overlay">
+                    <h1>📓КАТАЛОГ📓</h1>
+                    <p>✨Исследуйте мир слов в нашем каталоге: от захватывающих романов до познавательных бестселлеров. Насладитесь разнообразием жанров и литературных открытий. Ваше следующее приключение ждет здесь! 📚 #КаталогКниг #ЛитературныеУдовольствия</p>
+                </div>
+                </a>
+            </div>
+            <div class="photo enlarge" id="photo3">
+                <a href="your_destination_page3.html">
+                <img src="image/2carus.webp" alt="Фото 3">
+                <div class="overlay"></div>
+                <div class="text-overlay">Текст для фото 3</div>
+            </div>
+        </a>
+            <div class="photo enlarge" id="photo4">
+                <a href="your_destination_page3.html">
+                <img src="image/3capib.webp" alt="Фото 4">
+                <div class="overlay"></div>
+                <div class="text-overlay">Текст для фото 4</div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+styles.css:
+/* Сброс стилей для body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Стили для первой секции */
+.main-section {
+    position: relative;
+    text-align: center;
+}
+
+.image-overlay {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Добавленные стили для изображения */
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo {
+    margin: 0;
+}
+
+.logo img {
+    transition: transform 0.5s ease, src 0.5s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
+
+.left-tabs {
+    margin-right: 10px;
+}
+
+.right-tabs {
+    margin-left: 10px;
+}
+
+.tabs, .left-tabs, .right-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.left-tabs {
+    margin-left: 20px;
+}
+
+.right-tabs {
+    margin-right: 20px;
+}
+
+.tabs a, .tabs img {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+.centered-text h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.centered-text p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.centered-text .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #e37c71;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.centered-text .cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Стили для второй секции */
+.second-section {
+    height: 100vh;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.scroll-indicator {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-indicator img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-indicator img:hover {
+    opacity: 0.7;
+}
+
+.tabs a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, p {
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: #919191;
+}
+
+.block {
+    max-width: 300px;
+    text-align: center;
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.block h1 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    color: #7a7777;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Стили для третьей секции */
+.third-section {
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 55px;
+}
+
+.video-block {
+    max-width: 555px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block-above-video {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.block-above-video h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 4 блок */
+/* Ваши существующие стили */
+
+/* Добавленные стили для четвертой секции */
+.fourth-section {
+    background-color: #7a7777;
+    text-align: center;
+    padding: 15px;
+}
+
+.photo-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.photo {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+
+.photo:hover img {
+    opacity: 1.7;
+}
+
+.photo:hover .text-overlay {
+    opacity: 1;
+}
+
+.photo.enlarge {
+    width: 450px; /* Измененный размер фотографии */
+    height: 250px; /* Измененный размер фотографии */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo.enlarge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Добавленные стили для затемнения сайта при наведении */
+.photo-block:hover .photo:not(:hover) {
+    filter: brightness(33%);
+}
+
+body.darken-page {
+    overflow: hidden;
+}
+
+body.darken-page .photo-block .photo:not(:hover) {
+    filter: brightness(50%);
+}
+
+/* Добавленные стили для меню */
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 999;
+}
+
+.menu-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.menu .tabs a {
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu .tabs a:hover {
+    background-color: #333;
+}
+
+/* Добавленные стили для переключения темы */
+.theme-switcher {
+    margin-top: 20px;
+}
+
+.theme-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Добавленные стили для затемнения сайта при отображении меню */
+body.menu-open {
+    overflow: hidden;
+}
+
+body.menu-open .menu {
+    display: block;
+}
+
+script.js:
+    document.addEventListener('DOMContentLoaded', function () {
+        // Получаем элемент с логотипом
+        const logo = document.querySelector('.logo img');
+
+        // Сохраняем путь к изображению и изображение при наведении
+        const originalSrc = logo.src;
+        const hoverSrc = logo.getAttribute('data-hover');
+
+        // Добавляем обработчики событий для изменения изображения при наведении и отведении
+        logo.addEventListener('mouseover', () => {
+            logo.src = hoverSrc;
+        });
+
+        logo.addEventListener('mouseout', () => {
+            logo.src = originalSrc;
+        });
+
+        const scrollIndicator = document.querySelector('.scroll-indicator');
+
+        // Обработчик события при прокрутке колеса мыши
+        window.addEventListener('wheel', function (event) {
+            // Если прокрутка вниз
+            if (event.deltaY > 0) {
+                // Скрываем стрелочку
+                scrollIndicator.style.opacity = 0;
+            } else {
+                // Показываем стрелочку
+                scrollIndicator.style.opacity = 1;
+            }
+        });
+
+        // Обработчик события при клике на стрелочку
+        scrollIndicator.addEventListener('click', function () {
+            // Получаем текущее положение окна просмотра
+            const currentScroll = window.scrollY;
+
+            // Вычисляем высоту окна просмотра
+            const windowHeight = window.innerHeight;
+
+            // Если мы еще не достигли подвала, прокручиваем вниз
+            if (currentScroll + windowHeight < document.body.clientHeight) {
+                window.scrollTo({
+                    top: currentScroll + windowHeight,
+                    behavior: 'smooth',
+                });
+            } else {
+                // Если достигли подвала, прокручиваем вверх
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth',
+                });
+            }
+        });
+
+        // Секция второго блока
+        const secondSection = document.querySelector('.second-section');
+
+        // Получаем все блоки второй секции
+        const blocks = document.querySelectorAll('.second-section .block');
+
+        // Инициализируем ScrollReveal
+        ScrollReveal().reveal(blocks, {
+            delay: 200, // Задержка перед появлением каждого блока
+            distance: '50px', // Расстояние, на которое происходит смещение блока
+            origin: 'bottom', // Направление, из которого происходит анимация
+            easing: 'cubic-bezier(0.5, 0, 0, 1)', // Функция анимации
+            reset: true, // Анимация будет сброшена при каждом повторном появлении блока
+            useDelay: 'always', // Всегда использовать задержку
+            viewFactor: 0.5, // Часть блока, которая должна быть видима, чтобы запустить анимацию (от 0 до 1)
+        });
+
+        // Секция третьего блока
+        const thirdSection = document.querySelector('.third-section');
+        
+        // Получаем все блоки третьей секции
+        const thirdBlocks = document.querySelectorAll('.third-section .block');
+
+        // Инициализируем ScrollReveal для третьей секции
+        ScrollReveal().reveal(thirdBlocks, {
+            delay: 200, // Задержка перед появлением каждого блока
+            distance: '50px', // Расстояние, на которое происходит смещение блока
+            origin: 'bottom', // Направление, из которого происходит анимация
+            easing: 'cubic-bezier(0.5, 0, 0, 1)', // Функция анимации
+            reset: true, // Анимация будет сброшена при каждом повторном появлении блока
+            useDelay: 'always', // Всегда использовать задержку
+            viewFactor: 0.5, // Часть блока, которая должна быть видима, чтобы запустить анимацию (от 0 до 1)
+        });
+
+        const videoBlock = document.getElementById('videoBlock');
+        const blockAboveVideo = document.querySelector('.block-above-video');
+
+        // Скрываем блок с видео при загрузке страницы
+        videoBlock.style.display = 'none';
+
+        // Показываем блок с видео, если пользователь доскроллил до третьей секции
+        window.addEventListener('scroll', function () {
+            const thirdSectionTop = videoBlock.getBoundingClientRect().top;
+            if (thirdSectionTop < window.innerHeight) {
+                videoBlock.style.display = 'block';
+                blockAboveVideo.style.display = 'none';
+            }
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const photoBlock = document.querySelector('.photo-block');
+        const body = document.body;
+    
+        // Обработчик события при наведении на блок с фото
+        photoBlock.addEventListener('mouseover', function (event) {
+            // Проверяем, что событие произошло на элементе с классом 'photo'
+            if (event.target.classList.contains('photo')) {
+                // Добавляем класс 'darken-page' к body для затемнения страницы
+                body.classList.add('darken-page');
+            }
+        });
+    
+        // Обработчик события при уходе курсора с блока с фото
+        photoBlock.addEventListener('mouseout', function () {
+            // Удаляем класс 'darken-page' из body для восстановления страницы
+            body.classList.remove('darken-page');
+        });
+    });    
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuIcon = document.getElementById('menuIcon');
+        const menu = document.querySelector('.menu');
+        const body = document.body;
+        const lightThemeIcon = document.getElementById('lightTheme');
+        const darkThemeIcon = document.getElementById('darkTheme');
+    
+        // Обработчик события для отображения/скрытия меню
+        menuIcon.addEventListener('click', () => {
+            menu.classList.toggle('menu-open');
+            body.classList.toggle('menu-open');
+        });
+    
+        // Обработчик события для переключения темы
+        lightThemeIcon.addEventListener('click', () => {
+            body.classList.remove('dark-theme');
+        });
+    
+        darkThemeIcon.addEventListener('click', () => {
+            body.classList.add('dark-theme');
+        });
+    });
+
+2styles.css:
+/* Сброс стилей для body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Стили для первой секции */
+.main-section {
+    position: relative;
+    text-align: center;
+}
+
+.image-overlay {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img {
+    transition: transform 0.5s ease, src 0.5s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
+
+.left-tabs {
+    margin-right: 10px;
+}
+
+.right-tabs {
+    margin-left: 10px;
+}
+
+.tabs, .left-tabs, .right-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.left-tabs {
+    margin-left: 20px;
+}
+
+.right-tabs {
+    margin-right: 20px;
+}
+
+.tabs a, .tabs img {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+.centered-text h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.centered-text p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.centered-text .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #e37c71;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.centered-text .cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Стили для второй секции */
+.second-section {
+    height: 100vh;
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.scroll-indicator {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-indicator img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-indicator img:hover {
+    opacity: 0.7;
+}
+
+.tabs a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, p {
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: #919191;
+}
+
+.block {
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: margin 0.3s ease; /* Добавлено свойство transition */
+}
+
+.block:nth-child(1) {
+    margin: -115px -105px 75px 0; /* Измените значения по вашему усмотрению */
+}
+
+.block:nth-child(2) {
+    margin: 10px  10px 0 10px; /* Измените значения по вашему усмотрению */
+}
+
+.block:nth-child(3) {
+    margin: 215px 10px 0 -105px; /* Измените значения по вашему усмотрению */
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.block h1 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    color: #7a7777;
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* Стили для третьей секции */
+.third-section {
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 55px;
+}
+
+.video-block {
+    max-width: 555px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block-above-video {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.block-above-video h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Добавленные стили для четвертой секции */
+.fourth-section {
+    background-color: #7a7777;
+    text-align: center;
+    padding: 15px;
+}
+
+.photo-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.photo {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+
+.photo:hover img {
+    opacity: 1.7;
+}
+
+.photo:hover .text-overlay {
+    opacity: 1;
+}
+
+.photo.enlarge {
+    width: 450px;
+    height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo.enlarge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 201px rgba(255, 105, 105, 0.5);
+}
+
+.photo-block:hover .photo:not(:hover) {
+    filter: brightness(33%);
+}
+
+body.darken-page {
+    overflow: hidden;
+}
+
+body.darken-page .photo-block .photo:not(:hover) {
+    filter: brightness(50%);
+}
+
+/* Добавленные стили для меню */
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 15, 15, 0.7);
+    display: none;
+    z-index: 999;
+}
+
+.menu-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.menu .tabs a {
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu .tabs a:hover {
+    background-color: #333;
+}
+
+/* Добавленные стили для переключения темы */
+.theme-switcher {
+    margin-top: 20px;
+}
+
+.theme-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+body.menu-open {
+    overflow: hidden;
+}
+
+body.menu-open .menu {
+    display: block;
+}
+
+/* Подвал */
+
+
+
+
+
+
+
+
+
+
+/* Сброс стилей для body */
+body {
+    margin: 0; /* Убирает внешние отступы для body */
+    font-family: 'Roboto', sans-serif; /* Задает шрифт текста */
+    overflow-x: hidden; /* Скрывает горизонтальную полосу прокрутки */
+}
+
+/* Стили для первой секции */
+.main-section {
+    position: relative; /* Задает позицию как относительную для первой секции */
+    text-align: center; /* Выравнивает текст по центру */
+}
+
+.auth-button {
+    background: none; /* Убирает фон кнопки авторизации */
+    border: none; /* Убирает границу кнопки авторизации */
+    cursor: pointer; /* Делает курсор указателем для кнопки авторизации */
+}
+
+.auth-button img {
+    width: 25px; /* Задает ширину изображения внутри кнопки авторизации */
+    height: auto; /* Позволяет изображению сохранить пропорции */
+}
+
+.auth-button:hover img {
+    transform: scale(1.1); /* Увеличивает размер изображения при наведении на кнопку авторизации */
+    transition: transform 0.3s ease; /* Плавное изменение размера с анимацией */
+}
+
+/* Стили для оверлея изображения */
+.image-overlay {
+    position: relative; /* Задает позицию как относительную для оверлея изображения */
+    text-align: center; /* Выравнивает текст по центру */
+    overflow: hidden; /* Скрывает все, что выходит за границы блока */
+}
+
+.image-container {
+    overflow: hidden; /* Скрывает все, что выходит за границы контейнера изображения */
+}
+
+.image-container img {
+    width: 100%; /* Задает ширину изображения 100% от контейнера */
+    height: auto; /* Позволяет изображению сохранить пропорции */
+    display: block; /* Делает изображение блочным элементом */
+}
+
+.image-overlay img {
+    max-width: 100%; /* Задает максимальную ширину изображения 100% от контейнера */
+    height: auto; /* Позволяет изображению сохранить пропорции */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img {
+    transition: transform 0.5s ease, src 0.5s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
+
+.left-tabs {
+    margin-right: 10px;
+}
+
+.right-tabs {
+    margin-left: 10px;
+}
+
+.tabs, .left-tabs, .right-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.left-tabs {
+    margin-left: 20px;
+}
+
+.right-tabs {
+    margin-right: 20px;
+}
+
+.tabs a, .tabs img {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+.centered-text h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.centered-text p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.centered-text .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #e37c71;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.centered-text .cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Стили для второй секции */
+.second-section {
+    height: 100vh;
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: margin 0.3s ease; /* Добавлено свойство transition */
+}
+
+.block:nth-child(1) {
+    margin: -115px -105px 75px 0; /* Измените значения по вашему усмотрению */
+}
+
+.block:nth-child(2) {
+    margin: 10px  10px 0 10px; /* Измените значения по вашему усмотрению */
+}
+
+.block:nth-child(3) {
+    margin: 215px 10px 0 -105px; /* Измените значения по вашему усмотрению */
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.block h1 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    color: #7a7777;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.scroll-indicator {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll-indicator img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-indicator img:hover {
+    opacity: 0.7;
+}
+
+.tabs a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, p {
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}   
+
+/* Стили для третьей секции */
+.third-section {
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 55px;
+}
+
+.video-block {
+    max-width: 555px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block-above-video {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.block-above-video h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Добавленные стили для четвертой секции */
+.fourth-section {
+    background-color: #7a7777;
+    text-align: center;
+    padding: 15px;
+}
+
+.photo-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.photo {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+
+.photo:hover img {
+    opacity: 1.7;
+}
+
+.photo:hover .text-overlay {
+    opacity: 1;
+}
+
+.photo.enlarge {
+    width: 450px;
+    height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo.enlarge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 201px rgba(255, 105, 105, 0.5);
+}
+
+.photo-block:hover .photo:not(:hover) {
+    filter: brightness(33%);
+}
+
+/* Добавленный стиль для меню */
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    right: 20px; /* Изменено с left на right */
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    color: #fff; /* Цвет бургера */
+}
+
+.menu-open .menu-icon {
+    color: #000; /* Цвет бургера при открытом меню */
+}
+
+.menu-open .menu-container {
+    right: 0; /* Показать меню при открытом состоянии */
+}
+
+.menu-open .overlay-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menu-open .tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menu-open .tabs a {
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #000; /* Цвет текста ссылок в меню при открытом состоянии */
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-open .tabs a:hover {
+    background-color: #f0f0f0; /* Изменен цвет фона при наведении */
+    color: #333; /* Цвет текста ссылок в меню при наведении */
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Изменено с left на right */
+    width: 300px;
+    height: 100%;
+    background: #333; /* Цвет фона меню */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    transition: right 0.3s ease; /* Анимация для плавного появления/скрытия меню */
+}
+
+.menu-content {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menu .tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.login-register {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer; /* Добавлен курсор для элемента авторизации и регистрации */
+}
+
+.login-register a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.login-register img {
+    width: 30px; /* Регулируйте размер изображений по вашему усмотрению */
+    height: auto;
+    cursor: pointer; /* Добавлен курсор для изображений авторизации и регистрации */
+}
+
+/* Дополнительные стили для положения изображений */
+.login-image {
+    margin-right: 10px;
+}
+
+.register-image {
+    margin-left: 10px;
+}
+
+.menu .tabs a {
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu .tabs a:hover {
+    background-color: #333;
+}
+
+/* Подвал */
+/* Стили для подвала */
+/* Стили для подвала */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.footer-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Стили для социальных иконок */
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Стили для tooltip */
+.social-icon::before {
+    content: attr(data-tooltip);
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icon:hover::before {
+    display: block;
+}
+
+/* Стили для подписки */
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #ff6659;
+}
+
+
+styles.css3:
+/* Сброс стилей для body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Стили для фиксированной позиции элемента входа/регистрации */
+.auth-icon {
+    position: fixed;
+    top: 5px; /* Регулируйте значение, чтобы поднять или опустить иконку */
+    right: 95px; /* Регулируйте значение, чтобы сдвинуть иконку ближе к центру или к краю */
+    z-index: 100; /* Убедитесь, что z-index выше, чем у других элементов */
+}
+
+.auth-icon img {
+    width: 50px; /* или нужный вам размер */
+    height: auto;
+    top: 20px; /* Расстояние от верха первого блока */
+    left: 20px; /* Расстояние от левого края первого блока */
+    z-index: 10; /* Убедитесь, что элемент виден поверх других */
+}
+
+.image-overlay {
+    position: relative; /* Делает блок контекстом позиционирования для абсолютно позиционированных элементов */
+}
+
+.auth-icon, .menu-btn {
+    position: absolute; /* Позиционирует элементы абсолютно внутри первого блока */
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100; /* Убедитесь, что z-index выше, чем у других элементов */
+    cursor: pointer;
+    display: none; /* Изначально скрыта */
+}
+
+.scroll-to-top img {
+    width: 50px; /* Или любой другой размер, который вам нужен */
+    height: auto;
+}
+
+/* Стили для первой секции */
+.main-section {
+    text-align: center;
+    position: relative;
+    height: 100vh; /* Определите высоту, которую вы хотите для первого блока */
+    overflow: hidden; /* Это предотвратит видимость прокрутки вниз при прокрутке страницы */
+}
+
+/* Стили для кнопки Вход/Регистрация */
+#authButton {
+    position: fixed;
+    top: 27px;
+    right: 55px;
+    z-index: 1000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+#authButton img {
+    width: 25px;
+    height: auto;
+}
+
+#authButton:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Стили для оверлея изображения */
+.image-overlay {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-overlay img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay-content {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo {
+    margin: 0;
+    position: absolute;
+    top: 195%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo img {
+    transition: transform 0.5s ease, src 0.5s ease;
+}
+
+.logo:hover img {
+    transform: scale(1.1);
+}
+
+.left-tabs {
+    margin-right: 10px;
+}
+
+.right-tabs {
+    margin-left: 10px;
+}
+
+.tabs, .left-tabs, .right-tabs {
+    display: flex;
+    align-items: center;
+}
+
+.left-tabs {
+    margin-left: 20px;
+}
+
+.right-tabs {
+    margin-right: 20px;
+}
+
+/* Меню */
+
+/* Кнопка меню-бургера */
+.menu-btn {
+    position: fix;
+    top: 25px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 15px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-btn__burger {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    transition: all .3s linear;
+}
+
+/* Панель меню */
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Анимация крестика */
+.menu-btn.open .menu-btn__burger {
+    transform: rotate(45deg);
+}
+
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: all .3s linear;
+}
+
+/* Стиль для активного (открытого) состояния меню, если крестик реализован внутри .menu-btn */
+.menu-btn.open .menu-btn__burger,
+.menu-btn.open .menu-btn__burger::before,
+.menu-btn.open .menu-btn__burger::after {
+    /* Стили для создания крестика */
+    z-index: 1002; /* Это убедится, что линии крестика не будут перекрыты другими элементами */
+}
+
+.menu-btn__burger,
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    height: 2px; /* Уменьшенная высота полос */
+}
+
+.menu-btn__burger::before {
+    top: -10px;
+}
+
+.menu-btn__burger {
+    margin: 1px 1px; /* Меньше маржи для уменьшения пространства между полосами */
+}
+
+.menu-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-btn__burger::after {
+    bottom: -10px;
+}
+
+.menu-nav a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu-nav a:hover {
+    color: #e37c71;
+}
+
+/* Оверлей */
+.overlay {
+    display: none;
+    position: fixed; /* или absolute, в зависимости от нужного эффекта */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Пример полупрозрачного фона */
+    z-index: 1000; /* Убедитесь, что оверлей перекрывает другие элементы, но находится под кнопкой меню */
+}
+
+.tabs a, .tabs img {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+}
+
+.centered-text h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.centered-text p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.centered-text .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #e37c71;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.centered-text .cta-button:hover {
+    background-color: #c0392b;
+} 
+
+/* Стили для второй секции */
+.second-section {
+    height: 100vh;
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.block {
+    max-width: 300px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: margin 0.3s ease;
+}
+
+.block:nth-child(1) {
+    margin: -115px -105px 75px 0;
+}
+
+.block:nth-child(2) {
+    margin: 10px  10px 0 10px;
+}
+
+.block:nth-child(3) {
+    margin: 215px 10px 0 -105px;
+}
+
+.block img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.block h1 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    color: #7a7777;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Убедитесь, что z-index выше, чем у других элементов */
+}
+
+.scroll-indicator img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.scroll-indicator img:hover {
+    opacity: 0.7;
+}
+
+.tabs a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, p {
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}   
+
+/* Стили для третьей секции */
+.third-section {
+    background-color: #7a7777;
+    color: #fff;
+    text-align: center;
+    padding: 55px;
+}
+
+.video-block {
+    max-width: 555px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block-above-video {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.block-above-video h1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Добавленные стили для четвертой секции */
+.fourth-section {
+    background-color: #7a7777;
+    text-align: center;
+    padding: 15px;
+}
+
+.photo-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.photo {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+} */
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+
+.photo:hover img {
+    opacity: 1.7;
+}
+
+.photo:hover .text-overlay {
+    opacity: 1;
+}
+
+.photo.enlarge {
+    width: 450px;
+    height: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo.enlarge:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 201px rgba(255, 105, 105, 0.5);
+}
+
+.photo-block:hover .photo:not(:hover) {
+    filter: brightness(33%);
+}
+
+
+/* Подвал */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.footer-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #fff;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Стили для социальных иконок */
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Стили для tooltip */
+.social-icon::before {
+    content: attr(data-tooltip);
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-icon:hover::before {
+    display: block;
+}
+
+/* Стили для подписки */
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscribe-input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.subscribe-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+    background-color: #ff6659;
+}
+
+index.html3:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Слово Книги</title>
+</head>
+
+<body>
+    <!-- Вход/регистрация -->
+    <div class="auth-icon">
+        <a href="login_or_register_page.html" id="authLink">
+            <img src="image/register.png" alt="Вход/Регистрация" id="authIcon">
+        </a>
+    </div>
+
+    <!-- Кнопка меню-бургера -->
+<div class="menu-btn">
+    <div class="menu-btn__burger"></div>
+</div>
+
+<!-- Оверлей для затемнения экрана при открытом меню -->
+<div class="overlay" id="overlay" style="display:none;"></div>
+
+<!-- Панель меню -->
+<div class="nav" id="nav">
+    <div class="menu-nav">
+        <a href="link1.html">Ссылка 1</a>
+        <a href="link2.html">Ссылка 2</a>
+        <a href="link3.html">Ссылка 3</a>
+        <!-- Добавь дополнительные ссылки по мере необходимости -->
+    </div>
+</div>
+<!-- Кнопка прокрутки вверх -->
+<div class="scroll-to-top">
+    <img src="image/arrowe-up.png" alt="Вверх">
+</div>
+
+
+    <section class="main-section">
+        <div class="image-overlay">
+            <div class="dark-overlay"></div>
+            <div class="overlay-content">
+                <a href="index.html" class="logo">
+                    <img src="image/logo.png" alt="Логотип" data-hover="image/logo2.png">
+                </a>
+            </div>
+            <div class="centered-text">
+                <h1>Добро пожаловать в наш магазин электронных книг!</h1>
+                <p>У нас вы найдете широкий выбор современных и старинных изданий.</p>
+                <a href="#" class="cta-button">Подробнее</a>
+            </div>
+            <div class="image-container">
+                <img src="image/1blockf.jpg" alt="Пример фото">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <img src="image/arrow-down.gif" alt="Scroll Down">
+        </div>
+    </section>
+
+    <section class="second-section">
+        <div class="block block-hidden">
+            <img src="image/1corg.webp" alt="Книга 1">
+            <h1>✨Четвероногие литературные приключения🐾</h1>
+            <p>В мире интеллекта и вдохновения даже самые милые четвероногие друзья не остаются в стороне от
+                увлекательного чтения! 📚🐾 Наш маленький корги занят пристальным чтением книги, погруженный в мир слов
+                и историй. 🐶✨ Погрузитесь в удивительные приключения вместе с нашими книгами - идеальными спутниками
+                для всех любителей литературы, даже самых пушистых!</p>
+        </div>
+        <div class="block block-hidden">
+            <img src="image/2corg.webp" alt="Книга 3">
+            <h1>🐾Путешествие в мир слов начинается с улыбчивого корги! 📚</h1>
+            <p>Наш маленький литературный друг приглашает вас присоединиться к нему в увлекательном чтении. Сидя на
+                открытой книге с взглядом, полным приглашения, он предлагает вам погрузиться в удивительные истории
+                вместе. Давайте создадим вместе моменты волшебства и знаний! 🐶✨ #ЧитайСоМной</p>
+        </div>
+        <div class="block block-hidden">
+            <img src="image/3capib.webp" alt="Книга 2">
+            <h1>💖Любовь, книги и капибары! 📖</h1>
+            <p>Наши влюбленные капибары погружены в захватывающее чтение, смотря друг на друга с нежностью. Почувствуйте
+                магию момента вместе с нашими электронными книгами - идеальным компаньоном для романтических вечеров и
+                уютных моментов вдвоем!</p>
+        </div>
+    </section>
+
+    <section class="third-section">
+        <h1>Для чего вообще нужно читать книги?</h1>
+        <div class="block-above-video">
+        </div>
+        <div class="video-block" id="videoBlock">
+            <iframe width="560" height="315" src="image/2027269716-8964022.mp4" bord="1" allowfullscreen></iframe>
+            <div class="video-description">
+                <h1>🎥 Интересное видео о мире книг ✨</h1>
+                <p>Погрузитесь в захватывающий мир литературы с нашим интересным видео! Отзывы, рецензии и увлекательные
+                    факты о великих произведениях и новинках литературы.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="fourth-section">
+        <div class="photo-block">
+            <div class="photo enlarge" id="photo1">
+                <a href="your_destination_page3.html">
+                    <img src="image/1carus.webp" alt="Фото 1">
+                    <div class="overlay"></div>
+                    <div class="text-overlay">
+                        <h1>📓КАТАЛОГ📓</h1>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+            <div class="photo enlarge" id="photo2">
+                <a href="catalog.html">
+                    <img src="image/5corg.webp" alt="Фото 2">
+                    <div class="overlay"></div>
+                    <div class="text-overlay">
+                        <h1>📓КАТАЛОГ📓</h1>
+                        <p>✨Исследуйте мир слов в нашем каталоге: от захватывающих романов до познавательных
+                            бестселлеров. Насладитесь разнообразием жанров и литературных открытий. Ваше следующее
+                            приключение ждет здесь! 📚 #КаталогКниг #ЛитературныеУдовольствия</p>
+                    </div>
+                </a>
+            </div>
+            <div class="photo enlarge" id="photo3">
+                <a href="your_destination_page3.html">
+                    <img src="image/2carus.webp" alt="Фото 3">
+                    <div class="overlay"></div>
+                    <div class="text-overlay">Текст для фото 3</div>
+                </a>
+            </div>
+            <div class="photo enlarge" id="photo4">
+                <a href="your_destination_page3.html">
+                    <img src="image/3capib.webp" alt="Фото 4">
+                    <div class="overlay"></div>
+                    <div class="text-overlay">Текст для фото 4</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- подвал -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h2>ABOUT</h2>
+                <p>Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+            </div>
+            <div class="footer-column">
+                <h2>CATEGORIES</h2>
+                <ul>
+                    <li><a href="#">C</a></li>
+                    <li><a href="#">UI Design</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Templates</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2>QUICK LINKS</h2>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Contribute</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>&copy; 2017 All Rights Reserved by Scanfcode.</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <img src="path_to_your_image1.png" alt="Facebook" data-tooltip="Facebook Text">
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="path_to_your_image2.png" alt="Twitter" data-tooltip="Twitter Text">
+                </a>
+                <!-- Добавьте другие иконки с атрибутами data-tooltip по вашему желанию -->
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+script.js3:
+document.addEventListener('DOMContentLoaded', function () {
+    // Логика для изменения изображения логотипа при наведении
+    const logo = document.querySelector('.logo img');
+    const originalSrc = logo.src;
+    const hoverSrc = logo.getAttribute('data-hover');
+
+    logo.addEventListener('mouseover', () => {
+        logo.src = hoverSrc;
+    });
+
+    logo.addEventListener('mouseout', () => {
+        logo.src = originalSrc;
+    });
+
+    // Прокрутка вниз при клике на индикатор
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    scrollIndicator.addEventListener('click', function () {
+        window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth',
+        });
+    });
+
+    // Управление видимостью кнопки прокрутки вверх
+    const scrollToTopButton = document.querySelector('.scroll-to-top');
+    function toggleScrollToTopButton() {
+        scrollToTopButton.style.display = window.scrollY > window.innerHeight ? 'block' : 'none';
+    }
+    window.addEventListener('scroll', toggleScrollToTopButton);
+
+    scrollToTopButton.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    });
+
+    // Управление мобильным меню (бургер-меню)
+    const menuBtn = document.querySelector('.menu-btn');
+    const nav = document.getElementById('nav');
+    const overlay = document.getElementById('overlay');
+    let menuOpen = false;
+
+    function toggleMenu() {
+        menuBtn.classList.toggle('open');
+        nav.style.width = menuBtn.classList.contains('open') ? '250px' : '0';
+        overlay.style.display = menuBtn.classList.contains('open') ? 'block' : 'none';
+        menuOpen = !menuOpen;
+    }
+
+    menuBtn.addEventListener('click', toggleMenu);
+    overlay.addEventListener('click', toggleMenu);
+    document.querySelector('.menu-nav').addEventListener('click', toggleMenu);
+
+    // Инициализация ScrollReveal
+    ScrollReveal().reveal('.second-section .block', {
+        delay: 255,
+        distance: '50px',
+        origin: 'bottom',
+        easing: 'cubic-bezier(0.5, 0, 0, 1)',
+        reset: true,
+        useDelay: 'always',
+        viewFactor: 0.5,
+    });
+
+    // Управление модальным окном входа/регистрации
+    const modal = document.getElementById("loginModal");
+    const modalBtn = document.getElementById("loginModalButton");
+    const closeBtn = document.getElementsByClassName("close-button")[0];
+
+    modalBtn.onclick = function () {
+        modal.style.display = "block";
+    };
+
+    closeBtn.onclick = function () {
+        modal.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+});
